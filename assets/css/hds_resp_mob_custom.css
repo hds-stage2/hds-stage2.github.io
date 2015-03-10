@@ -1,3 +1,9 @@
+@media (max-width:768px){
+	.featurette-image{
+		display:none;
+	}
+}
+
 @media (max-width:991px){
 	div.fixed-nav-bar {
 		display:none;
