@@ -1,3 +1,15 @@
+@media(max-width:500px){
+	.products-section-container{
+		width:100%;
+		min-height:100vh;
+		padding-top:60px;
+		
+		padding-bottom:50px;
+		margin-bottom:-50px;
+	}
+}
+
+
 @media (max-width:768px){
 	.featurette-image{
 		display:none;
