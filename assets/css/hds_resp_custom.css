@@ -60,6 +60,7 @@ p, a, ul, li, h1, h2, h3, h4{font-family:'Montserrat';}
 	.slideout-menu{
 		display:none;
 	}
+	
 }
 
 /*Navbar Link Styles*/
@@ -130,13 +131,13 @@ a.navbar-link:active{
 
 .hds-solutions-overview{
 	width:100%;
-	height:calc(80vh - 50px);
+	min-height:calc(80vh - 50px);
 	padding-top:60px;
 }
 
 .hds-social-innovation-overview{
 	width:100%;
-	height:calc(80vh - 50px);
+	min-height:calc(80vh - 50px);
 	padding-top:60px;
 }
 
@@ -250,8 +251,8 @@ a.navbar-link:active{
 
 .hds-pull-left{
 	float:left;
-	max-width:30%;
-	margin-top:40px;
+	width:30%;
+	margin-top:50px;
 	margin-right:0px;
 	height:100%;
 }   
@@ -259,7 +260,7 @@ a.navbar-link:active{
 
 .hds-pull-right{
 	float:right;
-	max-width:70%;
+	width:70%;
 	margin-top:20px;
 	margin-left:0px;
 	height:100%;
@@ -280,7 +281,7 @@ a.navbar-link:active{
 }
 
  /*Level 2 Page Styling*/
- .hds-products-intro{
+.hds-products-intro{
 	width:100%;
 	min-height:70vh;
 	padding-top:60px;
@@ -294,6 +295,7 @@ a.navbar-link:active{
 ul.hds-product-listing{
 	list-style-type: none;
 	font-size:18px;
+	color:#FFFFFF;
 }
 
 .hds-container-divider{
@@ -307,4 +309,23 @@ ul.hds-product-listing{
 	width:100%;
 	min-height:70vh;
 	padding-top:60px;
+}
+
+.hds-expandable-content{
+	width:100%;
+	display:none;
+}
+
+a.hds-product-listing{
+	color:#FFFFFF;
+	font-size:20px;
+	margin:5px 5px 5px 5px;
+}
+
+a.hds-product-listing:hover{
+	color:#008EAA;
+}
+
+a.hds-product-listing:active{
+	color:#008EAA;
 }
