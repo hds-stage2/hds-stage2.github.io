@@ -9,6 +9,10 @@
 		padding-top:60px;
 	}
 	
+	.button-light{
+		margin-bottom:30px;
+	}
+	
 }
 
 @media (max-width:250px){
