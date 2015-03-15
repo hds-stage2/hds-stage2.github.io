@@ -3,6 +3,12 @@
 		display:none;
 	}
 	
+	.hds-products-intro{
+		width:100%;
+		min-height:100vh;
+		padding-top:60px;
+	}
+	
 	.products-section-container{
 		width:100%;
 		min-height:100vh;
