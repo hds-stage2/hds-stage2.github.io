@@ -2,6 +2,19 @@
 	.featurette-image{
 		display:none;
 	}
+	
+	.products-section-container{
+		width:100%;
+		min-height:100vh;
+		padding-top:60px;
+	}
+	
+}
+
+@media (max-width:250px){
+	.navbar_right_alt{
+		display:none;
+	}
 }
 
 @media (max-width:991px){
