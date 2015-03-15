@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -178,14 +178,14 @@
 			
 				<div class="slideout-menu">
 					<ul>
-						<li><a href="#hds-home">Home <i class="fa fa-angle-right"></i></a></li>
+						<li><a href="./index.html">Home <i class="fa fa-angle-right"></i></a></li>
 						<li><a href="#">Products <i class="fa fa-angle-right"></i></a></li>
-						<li><a href="#">Solutions <i class="fa fa-angle-right"></i></a></li>
-						<li><a href="#">Services <i class="fa fa-angle-right"></i></a></li>
-						<li><a href="#">Customers <i class="fa fa-angle-right"></i></a></li>
-						<li><a href="#">Partners <i class="fa fa-angle-right"></i></a></li>
-						<li><a href="#">Support <i class="fa fa-angle-right"></i></a></li>
-						<li><a href="#">Corporate <i class="fa fa-angle-right"></i></a></li>
+						<li><a href="http://www.hds.com/solutions/?WT.ac=us_mm_solutions">Solutions <i class="fa fa-angle-right"></i></a></li>
+						<li><a href="http://www.hds.com/services/?WT.ac=us_mm_services">Services <i class="fa fa-angle-right"></i></a></li>
+						<li><a href="http://www.hds.com/customers/?WT.ac=us_mm_customers">Customers <i class="fa fa-angle-right"></i></a></li>
+						<li><a href="http://www.hds.com/partners/?WT.ac=us_mm_partners">Partners <i class="fa fa-angle-right"></i></a></li>
+						<li><a href="http://www.hds.com/support/?WT.ac=us_mm_support">Support <i class="fa fa-angle-right"></i></a></li>
+						<li><a href="http://www.hds.com/corporate/?WT.ac=us_mm_corporate">Corporate <i class="fa fa-angle-right"></i></a></li>
 					</ul>
 				</div>
 			<!--End Mobile Elements-->			
@@ -200,7 +200,7 @@
 						<!--<div class="hds-teal-text-bg">-->
 							<h2 class="text-white">Make Data More Accesible and Simpler to Manage.</h2>
 							<h4 class="text-white">Hitachi Data Systems provides best-in-class information technologies, services and solutions that deliver compelling customer return on investment (ROI), unmatched return on assets (ROA) and demonstrable business impact. Our customers trust Hitachi Data Systems to protect their data, the raw resource that lies at the heart of their businesses.</h4>
-							<p class="hds-brand-text"><a href="#hds-products-overview-section" class="button-light custom-button-blue">Learn more about our products &raquo;</a></p>
+							<p class="hds-brand-text" style="paddding-bottom:30px"><a href="#hds-products-overview-section" class="button-light custom-button-blue">Learn more about our products &raquo;</a></p>
 						</div>	
 					<!--</div>-->
 					<div class="col-md-5">
@@ -221,12 +221,12 @@
 						<h2>Product Categories</h2>
 							<h4>As the world leader in storage virtualization, Hitachi Data Systems is the only company to offer a central virtualized platform for all data and information. Choose the right product area for you.<br><br></h4>
 							<ul class="hds-product-listing">
-								<li>&raquo; <a href="#hds-storage-products-overview">Storage</a></li>
-								<li>&raquo; <a href="#">Networking</a></li>
-								<li>&raquo; <a href="#">Software</a></li>
-								<li>&raquo; <a href="#">Compute</a></li>
-								<li>&raquo; <a href="#">File and Content</a></li>
-								<li>&raquo; <a href="#">Converged</a></li>
+								<li><a href="#hds-storage-products-overview">&raquo; Storage</a></li>
+								<li><a href="#">&raquo; Networking</a></li>
+								<li><a href="#">&raquo; Software</a></li>
+								<li><a href="#">&raquo; Compute</a></li>
+								<li><a href="#">&raquo; File and Content</a></li>
+								<li><a href="#">&raquo; Converged</a></li>
 							</ul>
 					</div>	
 				</div>
@@ -238,9 +238,20 @@
 			  <!-- Three columns of text below the carousel -->
 				<div class="row">
 					<div class="col-md-7">
-						<h2 class="text-white">Innovation of Analytics.</h2>
-						<h4 class="text-white">Big data is transforming how business does analytics. Insight is no longer confined to the database, and the applications and data sources stretch way beyond the traditional data center. New technologies, techniques and skill sets are needed and the stakes could not be higher for IT.</h4>
-						<p class="hds-brand-text"><a href="http://www.hds.com/solutions/big-data/" class="button-light custom-button-blue">See our solution &raquo;</a></p>
+						<h2 class="text-white">Transform Data into Valuable Information.</h2>
+						<h4 class="text-white">Transform raw data into valuable information by making your data more accessible and simpler to manage. As the leader in storage virtualization, only Hitachi Data Systems offers a central, virtualized platform for all data and information.</h4>
+						<p class="hds-brand-text"><a href="#" class="button-light custom-button-blue expander">See our Storage Systems &raquo;</a></p>
+							<p class="hds-brand-text">
+								<div class="hds-expandable-content">
+									<ul class="hds-product-listing">
+										<li>&raquo; <a class="hds-product-listing" href="#">Hitachi Flash Storage Portfolio</a></li>
+										<li>&raquo; <a class="hds-product-listing" href="#">Hitachi Unified Storage 100 Family</a></li>
+										<li>&raquo; <a class="hds-product-listing" href="#">Hitachi Unified Storage VM</a></li>
+										<li>&raquo; <a class="hds-product-listing" href="#">Hitachi Virtual Storage Platform</a></li>
+										<li>&raquo; <a class="hds-product-listing" href="#">Hitachi Virtual Storage Platform G1000</a></li>
+									</ul>
+								</div>
+							</p>			
 					</div>
 					<div class="col-md-5">
 						<!--Empty Set For Positioning-->
@@ -286,10 +297,10 @@
 		<script src="assets/js/docs.min.js"></script>
 		<script src="assets/js/holder.js"></script>
 		<script src="assets/js/parallax.min.js"></script>
+		<script src="assets/js/simple-expand.min.js"></script>
 	
-		<script type="javascript">
-			// Parallax Window Activation
-			$(".intro_pane").parallax({imageSrc: "assets/images/hds_img_intro_pane_bg.jpg"});
+		<script type="text/javascript">
+			$('.expander').simpleexpand();
 		</script>
 		
 		<script type="text/javascript">
@@ -315,11 +326,6 @@
 			});
 		</script>
 		
-		<script>
-			$(document).ready(function () {
-				$('.intro_pane_content').fadeIn(2000).removeClass('hidden');
-			});
-		</script>
 		
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 		<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
